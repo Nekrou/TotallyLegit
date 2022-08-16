@@ -5,6 +5,10 @@ getgenv().Danger = "⚠️"
 getgenv().ExploitSpecific = "📜"
 
 -- API CALLS
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nekrou/TotallyLegit/main/library.lua"))()
+getgenv().api = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nekrou/TotallyLegit/main/api.lua"))()
+local bssapi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nekrou/TotallyLegit/main/bssapi.lua"))()
+if not isfolder("kocmoc") then makefolder("kocmoc") end
 
 -- Script temporary variables
 local playerstatsevent = game:GetService("ReplicatedStorage").Events.RetrievePlayerStats
