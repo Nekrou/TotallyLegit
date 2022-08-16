@@ -1,0 +1,21 @@
+--[[
+
+// Totally~Legit Gen 1 \\
+
+Credits:
+[Nekro]: Owner, developer, bee swarm simulator
+[Nekro,Psychoo]: Bee Swarm Simulator, function library (xlp)
+
+
+Totally~Legit is owned, coded developed and managed by Boxking776 alone. Anyone else who claims to be a developer is an impersonator.
+Totally~Legit is mostly open source apart from some premium functions.
+Any attempts at stealing Totally~Legit source and using it without credit will result in a valid takedown request *.
+
+* In moderation. You can use sections of code, however you are prohibited from ripping off the entire source as your own.
+
+Thanks for using Totally~Legit! ^-^
+
+]]
+
+if game.PlaceId == 1537690962 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nekrou/TotallyLegit/main/ez.lua"))()
