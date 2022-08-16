@@ -8,7 +8,7 @@ getgenv().ExploitSpecific = "📜"
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nekrou/TotallyLegit/main/library.lua"))()
 getgenv().api = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nekrou/TotallyLegit/main/api.lua"))()
 local bssapi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nekrou/TotallyLegit/main/bssapi.lua"))()
-if not isfolder("kocmoc") then makefolder("kocmoc") end
+if not isfolder("Totally~Legit") then makefolder("Totally~Legit") end
 
 -- Script temporary variables
 local playerstatsevent = game:GetService("ReplicatedStorage").Events.RetrievePlayerStats
@@ -877,8 +877,6 @@ end
 
 --loadPremium("WindowLoad",Window)
 
-loadingBackend:UpdateText("Loaded Backend")
-local loadingUI = loadingInfo:CreateLabel("Loading UI..")
 
 local information = hometab:CreateSection("Information")
 information:CreateLabel("Welcome, "..api.nickname.."!")
@@ -888,11 +886,10 @@ information:CreateLabel(" - Not Safe Function")
 information:CreateLabel("⚙ - Configurable Function")
 information:CreateLabel("📜 - May be exploit specific")
 information:CreateLabel("Place version: "..game.PlaceVersion)
-information:CreateLabel("Script by Boxking776")
-information:CreateLabel("Originally by weuz_ and mrdevl")
+information:CreateLabel("Script by Nekro")
+information:CreateLabel("Originally by Psychoo")
 local gainedhoneylabel = information:CreateLabel("Gained Honey: 0")
-information:CreateButton("Discord Invite", function() setclipboard("https://discord.gg/kTNMzbxUuZ") end)
-information:CreateButton("Donation", function() setclipboard("https://www.paypal.com/paypalme/GHubPay") end)
+information:CreateButton("Donation", function() setclipboard("https://paypal.me/NekroMa?country.x=CZ&locale.x=cs_CZ") end)
 information:CreateToggle("Status Panel",true,function(bool) 
 kocmoc.toggles.enablestatuspanel=bool 
 if bool == false then 
